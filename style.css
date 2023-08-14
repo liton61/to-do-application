@@ -1,0 +1,55 @@
+.app-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.title {
+    text-align: center;
+}
+
+.input-area {
+    text-align: center;
+}
+
+#input-field {
+    width: 70%;
+    padding: 10px;
+    border: 2px solid burlywood;
+    border-radius: 5px;
+}
+
+#input-field:focus {
+    outline: none;
+
+}
+
+#add-btn {
+    padding: 12px 20px;
+    border: none;
+    background-color: burlywood;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+#add-btn:hover {
+    cursor: pointer;
+}
+
+#list-items {
+    list-style: none;
+}
+
+.task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
